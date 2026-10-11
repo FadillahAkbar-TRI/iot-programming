@@ -8,7 +8,7 @@
 
 // Konfigurasi pin dan tipe sensor DHT
 #define DHTPIN 2       // Pin D4 (GPIO 2)
-#define DHTTYPE DHT11  // Ganti DHT22 jika menggunakan varian DHT22
+#define DHTTYPE DHT22  // Ganti DHT22 jika menggunakan varian DHT22
 DHT dht(DHTPIN, DHTTYPE);
 
 // Identitas unik node untuk mempermudah identifikasi teks
